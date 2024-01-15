@@ -31,6 +31,7 @@ public class SecurityConfig {
 		authorizeHttpRequests((authorize) -> authorize
 				.requestMatchers("/").permitAll()
 				.requestMatchers("/*").permitAll()
+				.requestMatchers("/register/**").permitAll()
 				.requestMatchers("/movie/*").permitAll()
 				.requestMatchers("/movie/showFormForUpdate/*").hasRole("ADMIN")
 				.requestMatchers("/movie/saveMovie").hasRole("ADMIN")

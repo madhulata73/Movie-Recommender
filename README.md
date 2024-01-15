@@ -1,5 +1,6 @@
 # Movie-Recommender
 
+#Insert query for intial data load
 
 INSERT INTO `movie`.`language` (`id`, `name`) VALUES ('1', 'English');
 INSERT INTO `movie`.`language` (`id`, `name`) VALUES ('2', 'Hindi');

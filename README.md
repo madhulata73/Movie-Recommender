@@ -1,1 +1,1 @@
-#  Execute data.sql for intial data load
+#  Execute data.sql for initial data load
